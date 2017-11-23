@@ -12,7 +12,7 @@ def step_impl(context, payload):
 def step_impl(context, methodpost):
     context.methodpost = methodpost
     context.url      = context.host + context.rootPath + context.servicemethod
-    context.createParams2 = {"Email":"test.tes@jalasoft.com", "FullName": "Irina Torrico","Password": "123456"}
+    context.createParams2 = {"Email":"test.testi@jalasoft.com", "FullName": "Irina Torrico","Password": "123456"}
     context.response = requests.post(context.url, json=context.createParams2)
     generateFileJson("data/", "data_create_user", context.response.json())
 

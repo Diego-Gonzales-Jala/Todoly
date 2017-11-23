@@ -3,7 +3,7 @@ Feature: User
 This feature will be used to get, edit, delete and create new users
   @getuser @smoke
   Scenario: Get user information
-	Given I have a service for "/user.json"
+	Given I have a service for "/user.json" for user
 	When I send GET user request to get user information
 	Then I receive status code 200 for the response
 
@@ -15,7 +15,7 @@ This feature will be used to get, edit, delete and create new users
 	And I have create request payload:
 	"""
       {
-        "Email":"test.tes@jalasoft.com"
+        "Email":"test.testi@jalasoft.com"
 	 	"FullName": "Irina Torrico"
 	 	"Password": "123456"
       }

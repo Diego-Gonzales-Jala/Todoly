@@ -2,7 +2,7 @@ from compare import *
 from utils.module_rest import *
 from behave import given, when, then
 
-@given(u'I have a service for "{servicemethod}"')
+@given(u'I have a service for "{servicemethod}" for user')
 def step_impl(context,servicemethod ):
     context.servicemethod = servicemethod
 

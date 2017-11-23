@@ -5,11 +5,15 @@ def perform_get_request(host, headers=None):
     r = requests.get(host, headers=headers)
     return r.json()
 
-def perform_request(method, endpoint, headers='', body='', json=''):
+def perform_request(method, endpoint, headers='', body=''):
+#    print("endpoint", endpoint)
+#    print ("header", headers)
+#    print("body", body)
     if method == 'GET':
 	    result = requests.get(endpoint, headers=headers)
     if method == 'POST':
-	    result = requests.post(endpoint, json=json, headers=headers)
+	    result = requests.post(endpoint, headers=headers,json=body)
+       # print ("resutl", result)
     if method == 'PUT':
         result = requests.put(endpoint, payload=body, headers=headers)
     if method == 'DELETE':

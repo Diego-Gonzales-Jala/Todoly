@@ -4,7 +4,7 @@ global generic_data
 generic_data = yaml.load(open('configuration/config.yml'))
 
 def before_all(context):
-    print("_____________Before all_______________")
+    print("_____________Init before all_______________")
     context.host          = generic_data['host']
     context.rootPath      = generic_data['rootPath']
     context.token         = generic_data['token']
@@ -12,15 +12,15 @@ def before_all(context):
 
 def after_feature(context, feature):
     if 'smoke' in feature.tags:
-        print("__________ After Complete feature_____________")
+        print("__________ After feature______________")
 
 def before_feature(context, feature):
     if 'smoke' in feature.tags:
-        print("___________Before feature_____________")
+        print("___________Init before feature_____________")
 '''
 def before_scenario(context, scenario):
     if 'getuser' in scenario.tags:
-        print("_________Before Scenario___________")
+        print("_________Init before scenario___________")
 
 def before_step(context, step):
     print("STEP: ", step.name)
