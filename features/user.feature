@@ -1,6 +1,6 @@
 @userFeature
 Feature: User
-
+This feature will be used to get, edit, delete and create new users
   @getuser @smoke
   Scenario: Get user information
 	Given I have a service for "/user.json"
