@@ -1,4 +1,6 @@
 host: https://Todo.ly
 rootPath: /api
 #token: 7aa42a278db04c46a7fc424bf64acd31
-token: {"Authorization" : "Basic cWEudGVzdGluZy5kZ3NAZ21haWwuY29tOmRpZWdvMTk4Nw=="}
+token: {"Authorization" : "Basic bm90cmVtb3ZldXNlckBqYWxhc29mdC5jb206MTIzNDU2"}
+tokentoupdate: {"Authorization" : "Basic dXBkYXRlQGphbGFzb2Z0LmNvbToxMjM0NTY="}
+tokentodelete: {"Authorization" : "Basic bm90cmVtb3ZldXNlckBqYWxhc29mdC5jb206MTIzNDU2"}
