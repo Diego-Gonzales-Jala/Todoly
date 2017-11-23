@@ -1,6 +1,6 @@
 @userFeature @smoke
 Feature: User
-
+test
   @getuser
   Scenario: Get user information
     Given I have a user authenticated
