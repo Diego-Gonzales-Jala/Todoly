@@ -33,3 +33,38 @@ Scenario: Get Done Items of a Project
  Given I have a service of "/projects/3662858/doneitems.json"
  When I send "GET" project request to see the done items in a proyect
  Then I receive the status code "200" for the response
+
+#******************POST method*************************
+@smoke
+Scenario: Create New Project
+ Given I have a service of "/projects.json"
+ When I send "POST" project request with generic body.json
+ """
+ {
+  "Content": "My New GenericProject-Alex",
+  "Icon": 4
+  }
+ """
+ Then I receive the status code "200" for the response
+
+#******************PUT method*************************
+
+@smoke
+Scenario: Update Project By Id
+ Given I have a service of "/projects/3662858.json"
+ When I send "PUT" project request with generic body.json to update a proyect
+ """
+ {
+ "Content": "My Update GenericProject-Alex, Alex",
+ "Icon":2
+ }
+ """
+ Then I receive the status code "200" for the response
+
+#******************DELETE method*************************
+
+@smoke
+Scenario: Delete Project By Id
+ Given I have a service of "/projects/3662936.json"
+ When I send "DELETE" project request to remove a proyect
+ Then I receive the status code "200" for the response
