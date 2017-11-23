@@ -8,45 +8,28 @@ As ToDo user
 
 Background: User authenticated
     Given I have a new user authenticated
-
-@smoke
-Scenario: Create New Project
- Given I have a service of "/projects.json"
- When I send "POST" project request
- Then I receive the status code "200" for the response
-
+#******************GET method*************************
 @smoke
 Scenario: Get All Projects
  Given I have a service of "/projects.json"
  When I send "GET" project request
  Then I receive the status code "200" for the response
 
- @smoke
+@smoke
 Scenario: Get Project By Id
  Given I have a service of "/projects/3662858.json"
- When I send "GET" project request
+ When I send "GET" project request to see a proyect
  Then I receive the status code "200" for the response
-
-@smoke
-Scenario: Update Project By Id
- Given I have a service of "/projects/3662858.json"
- When I send "PUT" project request
- Then I receive the status code "200" for the response
-
-@smoke
-Scenario: Delete Project By Id
- Given: I have a service of "/projects/3662858.json"
- When: I send "DELETE" project request
- Then: I receive the status code "200" for the response
 
 @smoke
 Scenario: Get Items of a Project
  Given I have a service of "/projects/3662858/items.json"
- When I send "GET" project request
+ When I send "GET" project request to see the items in a proyect
  Then I receive the status code "200" for the response
+
 
 @smoke
 Scenario: Get Done Items of a Project
  Given I have a service of "/projects/3662858/doneitems.json"
- When I send "GET" project request
+ When I send "GET" project request to see the done items in a proyect
  Then I receive the status code "200" for the response
