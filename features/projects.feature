@@ -8,58 +8,61 @@ As ToDo user
 
 Background: User authenticated
     Given I have a new user authenticated
+
+
+
 #******************GET method*************************
 @smoke
 Scenario: Get All Projects
  Given I have a service of "/projects.json"
  When I send "GET" project request
- Then I receive the status code "200" for the response
+ Then I receive the status code "200" in the response
 
 @smoke
 Scenario: Get Project By Id
- Given I have a service of "/projects/3662858.json"
+ Given I have a service of "/projects/3663013.json"
  When I send "GET" project request to see a proyect
- Then I receive the status code "200" for the response
+ Then I receive the status code "200" in the response
 
 @smoke
 Scenario: Get Items of a Project
- Given I have a service of "/projects/3662858/items.json"
+ Given I have a service of "/projects/3663013/items.json"
  When I send "GET" project request to see the items in a proyect
- Then I receive the status code "200" for the response
+ Then I receive the status code "200" in the response
 
 
 @smoke
 Scenario: Get Done Items of a Project
- Given I have a service of "/projects/3662858/doneitems.json"
+ Given I have a service of "/projects/3663013/doneitems.json"
  When I send "GET" project request to see the done items in a proyect
- Then I receive the status code "200" for the response
+ Then I receive the status code "200" in the response
 
 #******************POST method*************************
 @smoke
 Scenario: Create New Project
  Given I have a service of "/projects.json"
- When I send "POST" project request with generic body.json
+ When I send "POST" project request with generic body.json:
  """
  {
-  "Content": "My New GenericProject-Alex",
+  "Content": "My New GenericProject-Alex..............",
   "Icon": 4
   }
  """
- Then I receive the status code "200" for the response
+ Then I receive the status code "200" in the response
 
 #******************PUT method*************************
 
 @smoke
 Scenario: Update Project By Id
- Given I have a service of "/projects/3662858.json"
- When I send "PUT" project request with generic body.json to update a proyect
+ Given I have a service of "/projects/3663013.json"
+ When I send "PUT" project request with generic body.json to update a proyect:
  """
  {
- "Content": "My Update GenericProject-Alex, Alex",
+ "Content": "My Update GenericProject-Alex++++++++++++++++++++, Alex",
  "Icon":2
  }
  """
- Then I receive the status code "200" for the response
+ Then I receive the status code "200" in the response
 
 #******************DELETE method*************************
 
@@ -67,4 +70,11 @@ Scenario: Update Project By Id
 Scenario: Delete Project By Id
  Given I have a service of "/projects/3662936.json"
  When I send "DELETE" project request to remove a proyect
- Then I receive the status code "200" for the response
+ Then I receive the status code "200" in the response
+
+
+#***********************************************************************************************************************
+#*****************************************CRUD**************************************************************************
+#***********************************************************************************************************************
+
+

@@ -12,7 +12,7 @@ def step_impl(context, methoddelete):
     context.method  = methoddelete
     context.url     = context.host + context.rootPath + context.servicedelete
     context.headers = context.tokentodelete
-   # context.response = perform_request(context.method, context.url, context.headers)
+    context.response = perform_request(context.method, context.url, context.headers)
     generateFileJson("data/", "User_DELETE", context.response.json())
 
 
