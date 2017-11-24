@@ -1,4 +1,3 @@
-@projectsFeature
 Feature: Projects
 As ToDo user
  I want to manage my projects

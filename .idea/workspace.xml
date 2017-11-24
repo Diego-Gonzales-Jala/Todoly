@@ -2,34 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f16cd43b-5d08-496e-93a6-78b2b5c91090" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/features/data/dataIdItems.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/features/data/dataRootIdItems.json" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/APIRequestProyects.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/features/data/Item_DELETEDeleteIdItem.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/features/data/Item_GETAllItems.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/features/data/Item_GETIdItems.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/features/data/Item_GETRootIdItems.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/features/data/Item_POSTAddItem.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/features/data/Project_DELETEAProject.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/features/data/Project_GETAllProyects.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/features/data/Project_GETDoneItemsInAProject.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/features/data/Project_GETItemsInAProject.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/features/data/Project_GETProyectsByID.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/features/data/Project_POSTCreateProyect.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/features/data/Project_PUTUpdateProyect.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/features/data/User_DELETE.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/features/data/User_GET.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/features/data/User_POST.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/features/data/User_PUT.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/features/data/data_all_filters.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/features/data/data_filter_by_id.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/features/data/data_item_one_filter.json" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/features/data/Item_PUTUpdateItem.json" afterPath="$PROJECT_DIR$/features/data/dataAddItem.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/Todoly.iml" afterPath="$PROJECT_DIR$/.idea/Todoly.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/features/icons.feature" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/features/ProjectCRUD.feature" afterPath="$PROJECT_DIR$/features/ProjectCRUD.feature" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/features/configuration/config.yml" afterPath="$PROJECT_DIR$/features/configuration/config.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/features/environment.py" afterPath="$PROJECT_DIR$/features/environment.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/features/filters.feature" afterPath="$PROJECT_DIR$/features/filters.feature" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/features/items.feature" afterPath="$PROJECT_DIR$/features/items.feature" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/features/projects.feature" afterPath="$PROJECT_DIR$/features/projects.feature" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/features/user.feature" afterPath="$PROJECT_DIR$/features/user.feature" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -40,32 +21,108 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="dataAddItem.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/features/data/dataAddItem.json">
+      <file leaf-file-name="environment.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/features/environment.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="394" lean-forward="false" selection-start-line="0" selection-start-column="394" selection-end-line="0" selection-end-column="394" />
+            <state relative-caret-position="425">
+              <caret line="25" column="31" lean-forward="false" selection-start-line="25" selection-start-column="31" selection-end-line="25" selection-end-column="31" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="dataIdItems.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/features/data/dataIdItems.json">
+      <file leaf-file-name="user.feature" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/features/user.feature">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="581" lean-forward="false" selection-start-line="0" selection-start-column="581" selection-end-line="0" selection-end-column="581" />
+            <state relative-caret-position="34">
+              <caret line="2" column="67" lean-forward="true" selection-start-line="2" selection-start-column="67" selection-end-line="2" selection-end-column="67" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="dataRootIdItems.json" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/features/data/dataRootIdItems.json">
+      <file leaf-file-name="items.feature" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/features/items.feature">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1156">
+              <caret line="68" column="26" lean-forward="false" selection-start-line="68" selection-start-column="26" selection-end-line="68" selection-end-column="26" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Proyect_steps.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/features/steps/Proyect_steps.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-51">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#11#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="projects.feature" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/features/projects.feature">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-255">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ProjectCRUD.feature" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/features/ProjectCRUD.feature">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="612">
+              <caret line="36" column="5" lean-forward="false" selection-start-line="36" selection-start-column="1" selection-end-line="36" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="filters.feature" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/features/filters.feature">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
-              <caret line="0" column="398" lean-forward="true" selection-start-line="0" selection-start-column="398" selection-end-line="0" selection-end-column="398" />
+              <caret line="0" column="15" lean-forward="false" selection-start-line="0" selection-start-column="15" selection-end-line="0" selection-end-column="15" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="config.yml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/features/configuration/config.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="6" column="33" lean-forward="true" selection-start-line="6" selection-start-column="33" selection-end-line="6" selection-end-column="33" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="user_get.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/features/steps/user_get.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#21#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="user_delete.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/features/steps/user_delete.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#31#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -81,6 +138,13 @@
         <option value="$PROJECT_DIR$/features/data/dataAddItem.json" />
         <option value="$PROJECT_DIR$/features/data/dataIdItems.json" />
         <option value="$PROJECT_DIR$/features/data/dataRootIdItems.json" />
+        <option value="$PROJECT_DIR$/features/items.feature" />
+        <option value="$PROJECT_DIR$/features/filters.feature" />
+        <option value="$PROJECT_DIR$/features/ProjectCRUD.feature" />
+        <option value="$PROJECT_DIR$/features/projects.feature" />
+        <option value="$PROJECT_DIR$/features/environment.py" />
+        <option value="$PROJECT_DIR$/features/configuration/config.yml" />
+        <option value="$PROJECT_DIR$/features/user.feature" />
       </list>
     </option>
   </component>
@@ -144,7 +208,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Behave/Behave_examples" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -227,7 +291,101 @@
     <entry file="file://$PROJECT_DIR$/features/data/dataRootIdItems.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="398" lean-forward="true" selection-start-line="0" selection-start-column="398" selection-end-line="0" selection-end-column="398" />
+          <caret line="0" column="398" lean-forward="false" selection-start-line="0" selection-start-column="398" selection-end-line="0" selection-end-column="398" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/steps/user_delete.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/steps/Proyect_steps.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-51">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/steps/user_get.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#21#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/items.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1156">
+          <caret line="68" column="26" lean-forward="false" selection-start-line="68" selection-start-column="26" selection-end-line="68" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/environment.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="25" column="31" lean-forward="false" selection-start-line="25" selection-start-column="31" selection-end-line="25" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/ProjectCRUD.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="612">
+          <caret line="36" column="5" lean-forward="false" selection-start-line="36" selection-start-column="1" selection-end-line="36" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/projects.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-255">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/icons.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/filters.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="15" lean-forward="false" selection-start-line="0" selection-start-column="15" selection-end-line="0" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/configuration/config.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="33" lean-forward="true" selection-start-line="6" selection-start-column="33" selection-end-line="6" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/user.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="67" lean-forward="true" selection-start-line="2" selection-start-column="67" selection-end-line="2" selection-end-column="67" />
           <folding />
         </state>
       </provider>

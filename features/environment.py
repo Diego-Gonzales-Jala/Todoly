@@ -8,9 +8,9 @@ def before_all(context):
     context.host          = generic_data['host']
     context.rootPath      = generic_data['rootPath']
     context.token         = generic_data['token']
-    context.tokentoupdate         = generic_data['tokentoupdate']
-    context.tokentodelete         = generic_data['tokentodelete']
-    #print(context.token)
+    context.tokentoupdate = generic_data['tokentoupdate']
+    context.tokentodelete = generic_data['tokentodelete']
+
 
 def after_feature(context, feature):
     if 'smoke' in feature.tags:
@@ -19,11 +19,13 @@ def after_feature(context, feature):
 def before_feature(context, feature):
     if 'smoke' in feature.tags:
         print("___________Init before feature_____________")
-'''
-def before_scenario(context, scenario):
-    if 'getuser' in scenario.tags:
-        print("_________Init before scenario___________")
 
+def before_scenario(context, scenario):
+    if 'smoke' in scenario.tags:
+        print("_________Init test cases for smoke___________")
+    if 'crud' in scenario.tags:
+        print("_________Init test cases for crud___________")
+'''
 def before_step(context, step):
     print("STEP: ", step.name)
     print("KEYWORD: ", step.keyword)

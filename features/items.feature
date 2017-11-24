@@ -1,7 +1,7 @@
 @itemsFeature
 Feature: Items
 
-  @getitem
+  @getitem @smoke
 Scenario: Get items
 	Given I have a service for "/items.json"
 	When I send GET items request to get all items information
@@ -9,7 +9,7 @@ Scenario: Get items
     #And response body should contain the same structure that dataAllItems.json
 
 
-  @getitem
+  @getitem @crud @smoke
 Scenario Outline: Get item by Id
 	Given I have a service with id "/items/<Id>.json"
 	When I send GET item request to get specified item information
@@ -20,7 +20,7 @@ Examples:
 |Id|
 |10049816|
 
-  @getitem
+  @getitem @crud @smoke
 Scenario Outline: Get root parent for unchecked item
 	Given I have a service with root id "/items/<Id>/RootItem.json"
 	When I send GET item request to get root parent for unchecked item
@@ -31,7 +31,7 @@ Examples:
 |Id|
 |10049816|
 
-  @getitem
+  @getitem @smoke
 Scenario Outline: Get root parent for done item
 	Given I have a service with item id "/items/<Id>/DoneRootItem.json"
 	When I send GET item request to get an error for done item that does not exist
@@ -42,7 +42,7 @@ Examples:
 |10049816|
 
 
-  @additem
+  @additem @smoke
 Scenario: Add item
 	Given I have a service for "/items.json"
 	And I have a pyloadBody:
@@ -55,7 +55,7 @@ Scenario: Add item
 	Then I receive status code 200 for the response
       And I got response body of new item
 
-  @deleteitem
+  @deleteitem @crud @smoke
 Scenario Outline: Delete item
 	Given I have a service for "/items/<Id>.json"
 	When I send DELETE items request to delete an item
@@ -66,7 +66,7 @@ Examples:
 |Id|
 |10049837|
 
-  @updateitem
+  @updateitem @crud @smoke
 Scenario Outline: Update item
 	Given I have a service for "/items/<Id>.json"
 	And I have a updateBody:

@@ -4,4 +4,4 @@ rootPath: /api
 token: {"Authorization" : "Basic ZGV2c29mdGJvbEBnbWFpbC5jb206ZGllZ28xOTg3"}
 
 tokentoupdate: {"Authorization" : "Basic ZGVsZXRlQGphbGFzb2Z0LmNvbToxMjM0NTY="}
-tokentodelete: {"Authorization" : "Basic ZGVsZXRlQGphbGFzb2Z0LmNvbToxMjM0NTY="}
+tokentodelete: {"Authorization" : "Basic bWFyY2VAamFsYTEyMy5jb206QVlCWjEyMw=="}

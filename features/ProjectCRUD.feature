@@ -1,5 +1,4 @@
 # Created by Alex Garcia at 11/23/2017
-@projectsFeature
 Feature: Projects
 As ToDo user
  I want to manage my projects
@@ -9,7 +8,7 @@ As ToDo user
 
 Background: User authenticated
     Given I have a new user authenticated
-@CRUD
+@crud
 Scenario: Create New Project [CRUD]
  Given I have a service of "/projects.json"
  When I send "POST" project request with generic body.json:
@@ -22,7 +21,7 @@ Scenario: Create New Project [CRUD]
  Then A new project should be insert in the database
 
 
-@CRUD
+@crud
 Scenario: Update Project By Id [CRUD]
  Given I have a service of "/projects/3663174.json"
  When I send "PUT" project request with generic body.json to update a proyect:
@@ -35,7 +34,7 @@ Scenario: Update Project By Id [CRUD]
 Then The project should be updated in the database
 
 
-@CRUD
+@crud
 Scenario: Delete Project By Id [CRUD]
  Given I have a service of "/projects/3663181.json"
  When I send "DELETE" project request to remove a proyect
