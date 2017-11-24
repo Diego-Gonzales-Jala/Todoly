@@ -2,7 +2,7 @@ import requests
 
 #if __name__ == '__main__':
 urlToDo = 'https://todo.ly/api'
-accessToken = {'Authorization':'Basic cWEudGVzdGluZy5kZ3NAZ21haWwuY29tOmRpZWdvMTk4Nw=='}
+accessToken = {'Authorization':'Basic ZGV2c29mdGJvbEBnbWFpbC5jb206ZGllZ28xOTg3'}
 
 def CreateProyect():
     urlProyects = '/projects.json'
@@ -11,7 +11,8 @@ def CreateProyect():
     response = requests.post(url,json=createParams, headers=accessToken)
     if response.status_code == 200:
         payload = response.json()
-        print(payload)
+        Id = payload['Id']
+        return Id
 
 def GetProyect():
     urlProyects = '/projects.json'
@@ -73,13 +74,11 @@ def GetDoneItemsOfAProject(id):
 
 
 
-
-
-
-#CreateProyect()
+CreateProyect()
+#print()
 #GetProyect()
 #3662821
-GetProyectID("3662854")
+#GetProyectID("3662854")
 #UpdateProyectID("3662821")
 #DeleteProyectID("3660943")
 #getItemsInAProject("3660943")
