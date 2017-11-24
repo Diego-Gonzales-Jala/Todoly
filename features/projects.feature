@@ -44,7 +44,7 @@ Scenario: Create New Project
  When I send "POST" project request with generic body.json:
  """
  {
-  "Content": "My New GenericProject-Alex..............",
+  "Content": "My New GenericProject-Alex",
   "Icon": 4
   }
  """
@@ -58,7 +58,7 @@ Scenario: Update Project By Id
  When I send "PUT" project request with generic body.json to update a proyect:
  """
  {
- "Content": "My Update GenericProject-Alex++++++++++++++++++++, Alex",
+ "Content": "My Update GenericProject-Alex, Alex",
  "Icon":2
  }
  """
@@ -72,9 +72,5 @@ Scenario: Delete Project By Id
  When I send "DELETE" project request to remove a proyect
  Then I receive the status code "200" in the response
 
-
-#***********************************************************************************************************************
-#*****************************************CRUD**************************************************************************
-#***********************************************************************************************************************
 
 
