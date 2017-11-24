@@ -74,8 +74,6 @@ def step_impl(context,method):
     generateFileJson("data/", "Project_DELETEAProject", context.response.json())
 
 
-
-
 @then(u'I receive the status code "{statusCode}" in the response')
 def step_impl(context, statusCode):
     expect(context.response.status_code).to_equal(int(statusCode))

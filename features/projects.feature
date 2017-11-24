@@ -8,6 +8,9 @@ As ToDo user
 
 Background: User authenticated
     Given I have a new user authenticated
+
+
+
 #******************GET method*************************
 @smoke
 Scenario: Get All Projects
@@ -68,5 +71,10 @@ Scenario: Delete Project By Id
  Given I have a service of "/projects/3662936.json"
  When I send "DELETE" project request to remove a proyect
  Then I receive the status code "200" in the response
+
+
+#***********************************************************************************************************************
+#*****************************************CRUD**************************************************************************
+#***********************************************************************************************************************
 
 

@@ -8,6 +8,8 @@ def before_all(context):
     context.host          = generic_data['host']
     context.rootPath      = generic_data['rootPath']
     context.token         = generic_data['token']
+    context.tokentoupdate         = generic_data['tokentoupdate']
+    context.tokentodelete         = generic_data['tokentodelete']
     #print(context.token)
 
 def after_feature(context, feature):
